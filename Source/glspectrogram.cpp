@@ -10,9 +10,6 @@ using namespace juce::gl;
 
 glspectrogram::glspectrogram()
 {
-    setPaintingIsUnclipped (true);      //maybe faster
-    setOpaque (true);                   //this too
-    
     cnt = 0;
     rd = 0;
     wr = 0;

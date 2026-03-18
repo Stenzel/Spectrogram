@@ -17,7 +17,6 @@ public:
     void newOpenGLContextCreated() final;
     void openGLContextClosing() final {};
     void renderOpenGL() final;
-    void paint (juce::Graphics &g) final {};
     void newline(const float *magnitudes);
 
     juce::OpenGLContext ocx;
